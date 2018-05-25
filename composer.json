@@ -1,0 +1,20 @@
+{
+    "name": "0.0.1/try-make-package",
+    "description": "just a test",
+    "require": {
+        "php": ">=5.6"
+    },
+    "authors": [
+        {
+            "name": "hanlei",
+            "email": "nicehanlei@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+
+    "autoload": {
+        "psr-4": {
+            "MiniUpload\\": "src/"
+        }
+    } 
+}
