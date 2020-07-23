@@ -1,17 +1,13 @@
 {
-    "name": "0.0.1/try-make-package",
+    "name": "kek",
     "description": "just a test",
     "require": {
-        "php": ">=5.6",
-        "monolog/monolog": "1.23.*"
+        "php": ">=7.4",
+        "monolog/monolog": "1.23.*",
+        "amocrm/amocrm-api-library": "0.3.4",
+        "ext-curl": "*",
+      "ext-json": "*"
     },
-    "authors": [
-        {
-            "name": "hanlei",
-            "email": "nicehanlei@163.com"
-        }
-    ],
-    "minimum-stability": "stable",
 
     "autoload": {
         "psr-4": {
