@@ -6,7 +6,7 @@ use AmoCRM\Models\CustomFieldsValues\ValueCollections\MultitextCustomFieldValueC
 use AmoCRM\Models\CustomFieldsValues\ValueModels\MultitextCustomFieldValueModel;
 
 require __DIR__.'/vendor/autoload.php';
-require __DIR__."/connect.php";
+require __DIR__ . "/api_connect.php";
 
 $contactsService = $apiClient->contacts();
 

@@ -3,7 +3,7 @@
 use AmoCRM\Exceptions\AmoCRMApiException;
 
 require __DIR__.'/vendor/autoload.php';
-require __DIR__."/connect.php";
+require __DIR__ . "/api_connect.php";
 
 // Подключаем сделки
 $leadsService = $apiClient->leads();

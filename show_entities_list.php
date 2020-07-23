@@ -3,7 +3,7 @@
 use AmoCRM\Models\LeadModel;
 
 require __DIR__.'/vendor/autoload.php';
-require __DIR__."/connect.php";
+require __DIR__ . "/api_connect.php";
 
 $leadsService = $apiClient->leads();
 
